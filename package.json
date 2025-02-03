@@ -1,0 +1,27 @@
+{
+  "name": "full-stack-takewaway-assignment",
+  "version": "1.0.0",
+  "description": "Takeaway Assignment for full stack position",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install --prefix client && npm install --prefix server",
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "fullstack",
+    "codingmountain"
+  ],
+  "type": "module",
+  "author": "CodingMountain",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "http-status": "^2.1.0"
+  }
+}
